@@ -7,44 +7,49 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>AI Pastries Recipe Generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>AI Pastries Recipe Generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter name of pastry for recipe..."
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The recipe goes here
-        <br />
-        The recipe goes here
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter name of pastry for recipe..."
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recipe">
+          The recipe goes here
+          <br />
+          The recipe goes here
+        </div>
+      </main>
 
-    <footer>
-      This website was coded by
-      <a href="https://github.com/eVon-codes" target="_blank">Yvonne Bukari</a>
-      is open-sourced on
-      <a
-        href="https://github.com/eVon-codes/pastries-recipe-generator"
-        target="_blank"
-        >Github</a
-      >
-      and is hosted on
-      <a
-        href="https://ai-pastries-recipe-generator.netlify.app/"
-        target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This website was coded by
+        <a href="https://github.com/eVon-codes" target="_blank"
+          >Yvonne Bukari</a
+        >
+        is open-sourced on
+        <a
+          href="https://github.com/eVon-codes/pastries-recipe-generator"
+          target="_blank"
+          >Github</a
+        >
+        and is hosted on
+        <a
+          href="https://ai-pastries-recipe-generator.netlify.app/"
+          target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
